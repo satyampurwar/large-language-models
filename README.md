@@ -2,6 +2,7 @@
  - `cd <base>/large-language-models`
  - `conda env create --file deploy/conda/linux_py312.yml`
  - `conda activate llm`
+ - Updating yml if required: `conda env export --name llm > deploy/conda/linux_py312.yml`
 ## Trained Model Downloads
  - Refer this website (https://mega.io/cmd) to install megacmd based on the operating system.
  - For Ubuntu 24.04: `wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megacmd-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megacmd-xUbuntu_24.04_amd64.deb"`
