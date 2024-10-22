@@ -102,7 +102,7 @@ Here is a table summarizing key information about storage and training memory re
 | Quantization | - FP16: 2 bytes per parameter |
 |  | - INT8: 1 byte per parameter |
 |  | - Reduces storage and memory requirements |
-| PEFT Methods | - LoRA, Prompt Tuning, etc. |
+| PEFT Methods | - LoRA |
 |  | - Train small number of parameters (e.g. <1%) |
 |  | - Drastically reduce memory/storage needs |
 
