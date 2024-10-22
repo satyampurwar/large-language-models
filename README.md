@@ -82,3 +82,28 @@ This notebook focuses on fine-tuning a FLAN-T5 model to generate less toxic cont
 | Instruction Following | Not designed for direct instruction following | Specifically trained to follow natural language instructions |
 
 FLAN-T5 is an advancement over BERT, offering more flexibility in task handling and better performance on a wider range of NLP tasks without requiring task-specific fine-tuning.
+
+## Infrastructure Decision-making
+Here is a table summarizing key information about storage and training memory required for large language models based on model size and parameters:
+
+| Aspect | Details |
+|--------|---------|
+| Model Size | - Typically measured in number of parameters (e.g. 175B for GPT-3) |
+| Parameters | - Each parameter is usually a 32-bit float (4 bytes) |
+| Storage | - 1B parameters ≈ 4GB storage |
+| Training Memory | - Model parameters: 4 bytes per parameter |
+|  | - Adam optimizer states: 8 bytes per parameter |
+|  | - Gradients: 4 bytes per parameter  |
+|  | - Activations/temp memory: ~8 bytes per parameter |
+|  | - Total: ~24 bytes per parameter |
+| Example | - 1B parameter model: |
+|  | - 4GB to store |
+|  | - ~24GB GPU RAM to train |
+| Quantization | - FP16: 2 bytes per parameter |
+|  | - INT8: 1 byte per parameter |
+|  | - Reduces storage and memory requirements |
+| PEFT Methods | - LoRA, Prompt Tuning, etc. |
+|  | - Train small number of parameters (e.g. <1%) |
+|  | - Drastically reduce memory/storage needs |
+
+The exact numbers can vary based on model architecture, training approach and optimizations used.
