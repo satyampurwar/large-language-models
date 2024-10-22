@@ -107,3 +107,12 @@ Here is a table summarizing key information about storage and training memory re
 |  | - Drastically reduce memory/storage needs |
 
 The exact numbers can vary based on model architecture, training approach and optimizations used.
+
+**Example**: Here's a table summarizing the storage and training memory requirements for **FLAN-T5-base (250M parameters)**, which has been used as the base model in the notebooks referred above:
+
+| Data Type | Model Size | Inference VRAM | Training VRAM (using Adam) |
+|-----------|------------|----------------|----------------------------|
+| float32   | 850.31 MB  | 94.12 MB       | 3.32 GB                   |
+| float16/bfloat16 | 425.15 MB | 47.06 MB | 1.66 GB                   |
+| int8      | 212.58 MB  | 23.53 MB       | 850.31 MB                 |
+| int4      | 106.29 MB  | 11.77 MB       | 425.15 MB                 |
