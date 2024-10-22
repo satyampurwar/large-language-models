@@ -2,6 +2,9 @@
 
 This repository contains resources and notebooks for working with large language models.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/satyampurwar/large-language-models/blob/main/LICENSE) file for details.
+
 ## Setup
 
 ### Virtual Environment
