@@ -75,7 +75,9 @@ dependencies:
       - jsonpointer==3.0.0
       - jsonschema==4.23.0
       - jsonschema-specifications==2024.10.1
+      - jupyter==1.1.1
       - jupyter-client==8.6.3
+      - jupyter-console==6.6.3
       - jupyter-core==5.7.2
       - jupyter-events==0.10.0
       - jupyter-lsp==2.2.5
