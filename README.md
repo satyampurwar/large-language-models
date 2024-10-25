@@ -25,3 +25,12 @@ This repository contains resources and notebooks for working with large language
    ```
    conda env export --name llm > deploy/conda/linux_py312.yml
    ```
+
+### Trained Model Downloads
+
+1. Install megacmd based on your operating system from [https://mega.io/cmd](https://mega.io/cmd).
+
+2. For Ubuntu 24.04:
+   ```
+   wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megacmd-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megacmd-xUbuntu_24.04_amd64.deb"
+   ```
