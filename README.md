@@ -42,3 +42,10 @@ This repository contains resources and notebooks for working with large language
    mega-get https://mega.nz/folder/mUoGSTzR#7LQo8MLe_dz_zTG6nxdFTA
    mega-get https://mega.nz/folder/GVpXxITD#9YqNR_uhUyxqsDI-KUMr0w
    ```
+
+## Notebooks
+
+### In-context Learning
+**File**: `In-context-learning.ipynb`
+
+This notebook explores the influence of input text on model output. It focuses on prompt engineering techniques, comparing zero-shot, one-shot, and few-shot inferences to enhance Large Language Model outputs.
