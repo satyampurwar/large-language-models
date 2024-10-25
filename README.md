@@ -49,3 +49,12 @@ This repository contains resources and notebooks for working with large language
 **File**: `In-context-learning.ipynb`
 
 This notebook explores the influence of input text on model output. It focuses on prompt engineering techniques, comparing zero-shot, one-shot, and few-shot inferences to enhance Large Language Model outputs.
+
+### Instruction Fine-tuning
+**File**: `Instruction-fine-tuning.ipynb`
+
+This notebook demonstrates fine-tuning the FLAN-T5 model from Hugging Face for improved dialogue summarization. It covers:
+- Full fine-tuning
+- Evaluation using ROUGE metrics
+- Parameter Efficient Fine-Tuning (PEFT)
+- Comparison of performance metrics
