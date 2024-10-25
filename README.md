@@ -1,4 +1,4 @@
-# Large Language Models Project
+# Generative AI with Large Language Models
 
 This repository contains resources and notebooks for working with large language models.
 
