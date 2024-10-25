@@ -34,3 +34,11 @@ This repository contains resources and notebooks for working with large language
    ```
    wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megacmd-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megacmd-xUbuntu_24.04_amd64.deb"
    ```
+
+3. Download the trained models:
+   ```
+   mega-get https://mega.nz/folder/GNwjiCxR#bQtpQ8HMZ9jgoB1deKOTxA
+   mega-get https://mega.nz/folder/nBAXVDaa#Iu-PvhWUDHSDd78HvEleTA
+   mega-get https://mega.nz/folder/mUoGSTzR#7LQo8MLe_dz_zTG6nxdFTA
+   mega-get https://mega.nz/folder/GVpXxITD#9YqNR_uhUyxqsDI-KUMr0w
+   ```
