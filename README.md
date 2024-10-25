@@ -58,3 +58,10 @@ This notebook demonstrates fine-tuning the FLAN-T5 model from Hugging Face for i
 - Evaluation using ROUGE metrics
 - Parameter Efficient Fine-Tuning (PEFT)
 - Comparison of performance metrics
+
+### Reinforcement Learning Fine-tuning
+**File**: `Reinforcement-learning-fine-tuning.ipynb`
+
+This notebook focuses on fine-tuning a FLAN-T5 model to generate less toxic content using:
+- Meta AI's hate speech reward model (a binary classifier predicting "not hate" or "hate")
+- Proximal Policy Optimization (PPO) for reducing model toxicity
