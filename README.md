@@ -64,4 +64,18 @@ This notebook demonstrates fine-tuning the FLAN-T5 model from Hugging Face for i
 
 This notebook focuses on fine-tuning a FLAN-T5 model to generate less toxic content using:
 - Meta AI's hate speech reward model (a binary classifier predicting "not hate" or "hate")
-- Proximal Policy Optimization (PPO) for reducing model toxicity
+- Proximal Policy Optimization (PPO) for reducing model toxicity.
+
+## BERT vs. FLAN-T5
+
+| Feature | BERT | FLAN-T5 |
+|---------|------|---------|
+| Architecture | Encoder-only | Encoder-decoder |
+| Pre-training | Masked Language Modeling and Next Sentence Prediction | Text-to-Text Transfer Transformer (T5) |
+| Fine-tuning | Task-specific fine-tuning required | Instruction-tuned, can handle multiple tasks without task-specific fine-tuning |
+| Input/Output | Fixed-length input, typically used for classification and token-level tasks | Variable-length input and output, suitable for a wide range of NLP tasks |
+| Multilingual Support | Available in multilingual versions | Inherently supports multiple languages |
+| Size | Various sizes, typically smaller than T5 models | Generally larger, with various sizes available |
+| Instruction Following | Not designed for direct instruction following | Specifically trained to follow natural language instructions |
+
+FLAN-T5 is an advancement over BERT, offering more flexibility in task handling and better performance on a wider range of NLP tasks without requiring task-specific fine-tuning.
