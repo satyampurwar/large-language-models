@@ -122,6 +122,10 @@ dependencies:
       - langchain-openai==0.3.19
       - langchain-perplexity==0.1.1
       - langchain-text-splitters==0.3.8
+      - langgraph==0.4.8
+      - langgraph-checkpoint==2.0.26
+      - langgraph-prebuilt==0.2.2
+      - langgraph-sdk==0.1.70
       - langsmith==0.3.44
       - loralib==0.1.2
       - markdown-it-py==3.0.0
@@ -170,6 +174,7 @@ dependencies:
       - opentelemetry-semantic-conventions==0.54b1
       - opentelemetry-util-http==0.54b1
       - orjson==3.10.18
+      - ormsgpack==1.10.0
       - overrides==7.7.0
       - packaging==24.1
       - pandas==2.2.3
