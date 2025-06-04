@@ -66,6 +66,18 @@ This notebook focuses on fine-tuning a FLAN-T5 model to generate less toxic cont
 - Meta AI's hate speech reward model (a binary classifier predicting "not hate" or "hate")
 - Proximal Policy Optimization (PPO) for reducing model toxicity.
 
+### RAG Implementation
+**File**: `RAG-Implementation.ipynb`
+
+This notebook demonstrates a complete Retrieval-Augmented Generation (RAG) pipeline using Python and LangChain libraries. The notebook guides users through the process of:
+- Ingesting documents from the web
+- Splitting text into manageable chunks
+- Generating vector embeddings for semantic search
+- Storing and retrieving information using a vector database
+- Leveraging a large language model (LLM) to generate context-aware answers to user queries
+
+By following this notebook, one will learn how to build an AI system that combines the power of search and generative models, enabling accurate, up-to-date, and contextually relevant responses based on your own data sources. This approach is ideal for building document Q&A systems, knowledge assistants, and enterprise chatbots, and serves as a practical introduction to modern RAG architectures.
+
 ## BERT vs. FLAN-T5
 
 | Feature | BERT | FLAN-T5 |
