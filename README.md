@@ -78,6 +78,18 @@ This notebook demonstrates a complete Retrieval-Augmented Generation (RAG) pipel
 
 By following this notebook, one will learn how to build an AI system that combines the power of search and generative models, enabling accurate, up-to-date, and contextually relevant responses based on your own data sources. This approach is ideal for building document Q&A systems, knowledge assistants, and enterprise chatbots, and serves as a practical introduction to modern RAG architectures.
 
+### AI-Agent Demonstration
+**File**: `AI-Agent-Demonstration.ipynb`
+
+This notebook focuses on LangGraph-based code which implements a structured workflow for automated job description analysis using FLAN-T5. The notebook demonstrates two core functionalities:
+- Role-Specific Job Analysis Pipeline
+   - Creates a LangGraph workflow with four sequential components: role classification, skill extraction, experience detection, and summary generation
+   - Uses in-context learning patterns with few-shot examples for each processing stage
+- Instruction-Tuned Model Deployment
+   - Leverages FLAN-T5-base's text-to-text architecture for multiple NLP tasks without retraining
+
+The code aligns with documented approach how to use LangGraph for workflow/pipeline orchestration.
+
 ## BERT vs. FLAN-T5
 
 | Feature | BERT | FLAN-T5 |
